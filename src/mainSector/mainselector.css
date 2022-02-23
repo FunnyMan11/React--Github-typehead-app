@@ -1,0 +1,132 @@
+  *,
+  ::after,
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+  }
+  h1 {
+    font-size: 2.75rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 0.875rem;
+  }
+  p {
+    margin-bottom: 1.25rem;
+    color: #015f4c;
+  }
+  .main {
+    margin: 100px;
+  }
+
+  .section-title {
+    text-align: center;
+    margin: 4rem 0 6rem 0;
+  }
+  .underline {
+    width: 8rem;
+    height: 0.25rem;
+    background: #009879;;
+    margin: 0 auto;
+  }
+  .followers {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+  }
+  .container {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+    .container {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  
+  .card {
+    background: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem 3.5rem;
+    text-align: center;
+  }
+  .card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card h4 {
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: hsl(210, 22%, 49%);
+  }
+  
+  .main-btn {
+    padding: 0.35rem 0.75rem;
+    letter-spacing: 1.6px;
+    font-size: 0.75rem;
+    color: #fff;
+    background: #009879;
+    border-radius: 0.75rem;
+    border-color: transparent;
+    text-transform: uppercase;;
+    cursor: pointer;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .page-btn {
+    width: 2rem;
+    height: 2rem;
+    background: #009879;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+  .active-btn {
+    background:  hsl(115, 75%, 16%);
+    color: #fff;
+  }
+  .prev-btn,
+  .next-btn {
+    background: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+    .btn-container {
+      margin: 0 auto;
+      max-width: 700px;
+    }
+  
+  
